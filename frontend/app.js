@@ -1,4 +1,4 @@
-const API_BASE = "https://hokudai-inv-commmon-test-front.pages.dev/"; // 必要に応じて変更
+const API_BASE = "https://hokudai-inv-commmon-test.onrender.com/"; // 必要に応じて変更
 
 const schemeSelect = document.getElementById("schemeSelect");
 const subjectsDiv = document.getElementById("subjects");
