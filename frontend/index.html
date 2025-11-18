@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>共通テスト換算</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>北海道大学共通テスト点数換算</h1>
+            <div class="card">
+                <label>系・群（配点スキーム）</label>
+                <select id="schemeSelect"></select>
+            </div>
+
+
+            <div id="subjects" class="card"></div>
+
+
+            <div class="actions">
+                <button id="convertBtn">換算する</button>
+            </div>
+
+
+            <div id="result" class="card hidden"></div>
+            <p class="note">※ 配点は大学の最新要項で必ず確認してください。</p>
+            <small>&copy; 2025 あーる(R). All Right Reserved.</small>
+        </div>
+    <script src="app.js"></script>
+    </body>
+</html>
